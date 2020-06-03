@@ -8,4 +8,4 @@ function test() {
     return "do test"
 }
 
-//export {doSomething, test};
+export {doSomething, test};
