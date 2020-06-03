@@ -1,7 +1,4 @@
-export default class {
-  consutructor() {}
-  doSomething() {
-    console.log('doSomething()...');
+exports.doSomething = function () {
+    console.log('--> doSomething()');
     return 'some text...';
- }
-}
+};
