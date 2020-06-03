@@ -3,3 +3,4 @@ export function doSomething(product) {
   console.log(product);
   return 'yooopy';
 }
+doSomething(null);
