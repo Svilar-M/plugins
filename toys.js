@@ -1,4 +1,11 @@
- export default function doSomething() {
-      console.log('This is console.log from function doSomthing()');
-      return 'yooopy';
-    }
+function doSomething() {
+    console.log('doSomething()')
+    return "do something"
+};
+
+function test() {
+    console.log('test()')
+    return "do test"
+}
+
+export {doSomething, test};
