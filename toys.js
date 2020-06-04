@@ -4,7 +4,7 @@ const getResultItem = (product) => {
   let resultItem = {};
 
   if (product) {
-    let tags = product.title.split(' ').slice(0, 5);
+    let tags = product.title.split(' ').slice(0, 2);
 
     resultItem = {
       title: product.title,
