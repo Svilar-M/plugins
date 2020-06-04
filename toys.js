@@ -1,4 +1,4 @@
-function getResultItem(product) {
+const getResultItem = (product) => {
   console.log('--> getResultItem()');
 
   let resultItem = {};
@@ -12,7 +12,7 @@ function getResultItem(product) {
       imageUrl: product.imageUrl
     };
   }
-  return t;
+  return resultItem;
 };
 
 export { getResultItem };
