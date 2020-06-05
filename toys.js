@@ -1,5 +1,4 @@
 const getResultItem = (product) => {
-  console.log('--> getResultItem()');
 
   let resultItem = {};
 
